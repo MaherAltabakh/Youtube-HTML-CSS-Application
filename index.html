@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./Css Files/general.css" />
+    <link rel="stylesheet" href="./Css Files/video.css" />
+    <link rel="stylesheet" href="./Css Files/header.css" />
+    <link rel="stylesheet" href="./Css Files/sidebar.css" />
+  </head>
+
+  <body style="height: 3000px">
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="./Images/icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="./Images/icons/youtube-logo.svg" />
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="./Images/icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="./Images/icons/voice-search-icon.svg"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="./Images/icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+          <img
+            class="youtube-apps-icon"
+            src="./Images/icons/youtube-apps.svg"
+          />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+
+        <div class="notification-icon-container">
+          <img
+            class="notifications-icon"
+            src="./Images/icons/notifications.svg"
+          />
+          <div class="notifications-style">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img
+          class="current-user-picture"
+          src="./Images/channel-pictures/SuperSimpleDev.jpg"
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="./Images/sidebar/home.svg" />
+        <div>Home</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="./Images/sidebar/explore.svg" />
+        <div>Explore</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="./Images/sidebar/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="./Images/sidebar/originals.svg" />
+        <div>Originals</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="./Images/sidebar/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="./Images/sidebar/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-Grid">
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Talking Tech And AI with Google CEO Sunder Pichai!.webp"
+            />
+            <div class="video-time">14:20</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Marques Brownlee.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Talking Tech And AI with Google CEO Sunder Pichai!
+              </p>
+
+              <p class="video-author">Marques Brownlee</p>
+
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Try not to laugh challenge 9.webp"
+            />
+            <div class="video-time">8:22</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Markiplier.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+
+              <p class="video-author">Markiplier</p>
+
+              <p class="video-stats">20M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Crazy Tik Toks Taken Moments Before DISASTER.webp"
+            />
+            <div class="video-time">9:13</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/SSSniperWolf.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+
+              <p class="video-author">SSSniperWolf</p>
+
+              <p class="video-stats">14,130,189 views &#183; Aug 9, 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/The Simplest Math Problem No One Can Solve - Collatz Conjecture.webp"
+            />
+            <div class="video-time">22:09</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Veritasium.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+
+              <p class="video-author">Veritasium</p>
+
+              <p class="video-stats">28,538,815 views &#183; Jul 30, 2021</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/kadane's algorithm to maximum sum subarry problem.webp"
+            />
+            <div class="video-time">11:17</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/CS Dojo.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+
+              <p class="video-author">CS Dojo</p>
+
+              <p class="video-stats">572,708 views &#183; Mar 9, 2016</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Anything You Can Fit In The Circle I’ll Pay For.webp"
+            />
+            <div class="video-time">19:59</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/MrBeast.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+
+              <p class="video-author">MrBeast</p>
+
+              <p class="video-stats">164,256,836 views &#183; Mar 7, 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Talking Tech And AI with Google CEO Sunder Pichai!.webp"
+            />
+            <div class="video-time">14:20</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Marques Brownlee.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Talking Tech And AI with Google CEO Sunder Pichai!
+              </p>
+
+              <p class="video-author">Marques Brownlee</p>
+
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Try not to laugh challenge 9.webp"
+            />
+            <div class="video-time">8:22</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Markiplier.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+
+              <p class="video-author">Markiplier</p>
+
+              <p class="video-stats">20M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Crazy Tik Toks Taken Moments Before DISASTER.webp"
+            />
+            <div class="video-time">9:13</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/SSSniperWolf.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+
+              <p class="video-author">SSSniperWolf</p>
+
+              <p class="video-stats">14,130,189 views &#183; Aug 9, 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/The Simplest Math Problem No One Can Solve - Collatz Conjecture.webp"
+            />
+            <div class="video-time">22:09</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Veritasium.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+
+              <p class="video-author">Veritasium</p>
+
+              <p class="video-stats">28,538,815 views &#183; Jul 30, 2021</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/kadane's algorithm to maximum sum subarry problem.webp"
+            />
+            <div class="video-time">11:17</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/CS Dojo.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+
+              <p class="video-author">CS Dojo</p>
+
+              <p class="video-stats">572,708 views &#183; Mar 9, 2016</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Anything You Can Fit In The Circle I’ll Pay For.webp"
+            />
+            <div class="video-time">19:59</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/MrBeast.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+
+              <p class="video-author">MrBeast</p>
+
+              <p class="video-stats">164,256,836 views &#183; Mar 7, 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Talking Tech And AI with Google CEO Sunder Pichai!.webp"
+            />
+            <div class="video-time">14:20</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Marques Brownlee.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Talking Tech And AI with Google CEO Sunder Pichai!
+              </p>
+
+              <p class="video-author">Marques Brownlee</p>
+
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Try not to laugh challenge 9.webp"
+            />
+            <div class="video-time">8:22</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Markiplier.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+
+              <p class="video-author">Markiplier</p>
+
+              <p class="video-stats">20M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Crazy Tik Toks Taken Moments Before DISASTER.webp"
+            />
+            <div class="video-time">9:13</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/SSSniperWolf.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+
+              <p class="video-author">SSSniperWolf</p>
+
+              <p class="video-stats">14,130,189 views &#183; Aug 9, 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/The Simplest Math Problem No One Can Solve - Collatz Conjecture.webp"
+            />
+            <div class="video-time">22:09</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/Veritasium.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+
+              <p class="video-author">Veritasium</p>
+
+              <p class="video-stats">28,538,815 views &#183; Jul 30, 2021</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Vertical Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/kadane's algorithm to maximum sum subarry problem.webp"
+            />
+            <div class="video-time">11:17</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Vertical Layout2-->
+
+            <div>
+              <!--Horizental Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/CS Dojo.jpg"
+              />
+            </div>
+
+            <div>
+              <!--Horizental Layout2-->
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+
+              <p class="video-author">CS Dojo</p>
+
+              <p class="video-stats">572,708 views &#183; Mar 9, 2016</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="Thumbnail-row">
+            <!--Horizental Layout1-->
+            <img
+              class="Thumbnail"
+              src="./Images/Thumbnails/Anything You Can Fit In The Circle I’ll Pay For.webp"
+            />
+            <div class="video-time">19:59</div>
+          </div>
+
+          <div class="video-info-grid">
+            <!--Horizental Layout2-->
+
+            <div class="channel-picture">
+              <!--Vertical Layout1-->
+              <img
+                class="profile-picture"
+                src="./Images/channel-pictures/MrBeast.jpg"
+              />
+            </div>
+
+            <div class="video-info">
+              <!--Vertical Layout2-->
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+
+              <p class="video-author">MrBeast</p>
+
+              <p class="video-stats">164,256,836 views &#183; Mar 7, 2020</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
